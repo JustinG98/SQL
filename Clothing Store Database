@@ -19,4 +19,5 @@ INSERT INTO clothing VALUES (14, "Necklace", 20, 20, 6);
 INSERT INTO clothing VALUES (15, "Rings", 10, 30, 6);
 
 --display the database ordered by price
-SELECT * FROM clothing ORDER BY price
+SELECT * FROM clothing 
+ORDER BY price;
