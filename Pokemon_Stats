@@ -842,7 +842,7 @@ SELECT avg(Speed) FROM pokemon;
 SELECT TYPE_1, SUM(HP) AS Total_HP FROM pokemon
 GROUP BY TYPE_1;
 
---Here the SUM of HP is narrowed to show only those types where the SUM is over 3000 HP
+--Here the SUM of HP is narrowed to show only those types where the SUM is over 3000 HP.
 
 SELECT TYPE_1, SUM(HP) AS Total_HP FROM Pokemon
 GROUP BY TYPE_1
