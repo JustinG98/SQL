@@ -1,4 +1,4 @@
---In this SQL I am querying a database that contains multiple tables to answer quantitatable questions about customer and order data
+--In this SQL I am querying a database that contains multiple tables to answer quantitatable questions about customer and order data.
 
 #1 How many order were placed in January?
 SELECT COUNT(orderid)
